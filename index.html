@@ -724,11 +724,11 @@
 
         $(window).on("load resize", function (e) {
             var w = $(window).innerWidth();
-            var inn = $('.owl-carousel').innerWidth();
+            var inn = $('.owl-stage-outer').innerWidth();
             var t = w - inn;
             var tol = t / 2;
 
-            $('.owl-carousel ').css('margin-right', -tol)
+            $('.owl-stage-outer').css('margin-right', -tol)
 
         });
     </script>
